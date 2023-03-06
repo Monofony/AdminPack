@@ -4,21 +4,22 @@
     "description": "Monofony admin pack.",
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^8.1",
         "behat/behat": "^3.2",
         "friends-of-behat/page-object-extension": "^0.3",
-        "monofony/admin": "^0.8",
-        "monofony/admin-contracts": "^0.8",
-        "monofony/admin-meta": "^0.8",
-        "monofony/behat-bridge": "^0.8",
-        "monofony/core-contracts": "^0.8",
-        "monofony/ui-bundle": "^1.10",
-        "phpstan/phpstan": "^0.12",
+        "monofony/admin": "^0.10",
+        "monofony/admin-contracts": "^0.10",
+        "monofony/admin-meta": "^0.10",
+        "monofony/behat-bridge": "^0.10",
+        "monofony/core-contracts": "^0.10",
+        "sylius/ui-bundle": "^1.12",
+        "pagerfanta/pagerfanta": "^3.5",
+        "phpstan/phpstan": "^1.5",
         "sonata-project/block-bundle": "^4.2",
-        "sylius/grid-bundle": "dev-master",
-        "symfony/asset": "5.4.*",
-        "symfony/routing": "5.4.*",
-        "symfony/templating": "5.4.*",
+        "sylius/grid-bundle": "^1.12",
+        "symfony/asset": "^6.1",
+        "symfony/routing": "^6.1",
+        "symfony/templating": "^6.1",
         "twig/twig": "^2.7",
         "webmozart/assert": "^1.9",
         "zenstruck/foundry": "^1.14"
@@ -26,8 +27,8 @@
     "require-dev": {
         "behat/behat": "^3.2",
         "friends-of-behat/page-object-extension": "^0.3",
-        "monofony/behat-bridge": "^0.8",
-        "phpstan/phpstan": "^0.12"
+        "monofony/behat-bridge": "^0.10",
+        "phpstan/phpstan": "^1.5"
     },
     "autoload-dev": {
         "psr-4": {
@@ -47,7 +48,7 @@
     ],
     "extra": {
         "branch-alias": {
-            "dev-master": "0.8-dev"
+            "dev-master": "0.10-dev"
         }
     }
 }
